@@ -1,0 +1,28 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "danielstieber/coda-php": "^0.0.3",
+    "kbsali/redmine-api": "~1.0",
+    "ext-json": "*",
+    "ext-xml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodaService" : "CodaServ/",
+      "RedmineService" : "RedmineServ/",
+      "jsonDecoder" : "Setup/",
+      "IRedmineService" : "RedmineServ/Interfaces/",
+      "ICodaSyncService" : "CodaServ/Interfaces/"
+    }
+  }
+
+}

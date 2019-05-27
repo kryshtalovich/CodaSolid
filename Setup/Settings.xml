@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<settings>
+    <Redmine>
+        <redmineUri>test_uri</redmineUri>
+        <redmineToken>my_redmine_token</redmineToken>
+    </Redmine>
+
+    <Coda>
+        <codaToken>my_coda_token</codaToken>
+        <codaDocumentId>my_document_id</codaDocumentId>
+        <codaTableName>my_table_name</codaTableName>
+    </Coda>
+</settings>
